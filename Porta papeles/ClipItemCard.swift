@@ -9,14 +9,23 @@ import SwiftUI
 
 struct ClipItemCard: View {
     let text: String
+    let favicon: NSImage?
+    let isLink: Bool
     
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
             
             HStack {
-                Text(preview)
+                if isLink, let fav = favicon {
+                    Image(nsImage: fav)
+                        .resizable()
+                        .frame(width: 16, height: 16)
+                        .cornerRadius(3)
+                }
+                Text(preview.replacingOccurrences(of: "\n", with: " "))
                     .font(.headline)
                     .foregroundColor(.white)
+                    .lineLimit(1)
                 
                 Spacer()
                 
@@ -36,7 +45,7 @@ struct ClipItemCard: View {
             Text(text)
                 .font(.body)
                 .foregroundColor(.white.opacity(0.9))
-                .lineLimit(3)
+                .lineLimit(1)
         }
         .padding()
         .background(
