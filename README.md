@@ -1,3 +1,6 @@
+<img width="766" height="483" alt="Captura de pantalla 2026-03-13 a las 9 56 45" src="https://github.com/user-attachments/assets/1c64222a-1b27-4651-8cb0-c3a69a2df984" />
+
+
 # Command-C
 
 Aplicacion de barra de menu para macOS que guarda historial del portapapeles y permite reutilizar texto, codigo, imagenes, enlaces y rutas de archivos.
