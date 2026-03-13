@@ -1,4 +1,7 @@
-<img width="766" height="483" alt="Captura de pantalla 2026-03-13 a las 9 56 45" src="https://github.com/user-attachments/assets/1c64222a-1b27-4651-8cb0-c3a69a2df984" />
+<img width="666" height="389" alt="Captura de pantalla 2026-03-13 a las 9 55 35" src="https://github.com/user-attachments/assets/ae50f8a5-1f1f-48c1-9bd8-46d2793f0d2c" />
+
+
+<img width="666" height="383" alt="Captura de pantalla 2026-03-13 a las 9 56 45" src="https://github.com/user-attachments/assets/1c64222a-1b27-4651-8cb0-c3a69a2df984" />
 
 
 # Command-C
